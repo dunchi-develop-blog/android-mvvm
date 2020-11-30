@@ -12,11 +12,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         with.setOnClickListener {
-            startActivity(Intent(this,WithAAC::class.java))
+            startActivity(Intent(this,LiveDataActivity::class.java))
         }
 
         without.setOnClickListener {
-            startActivity(Intent(this,WithoutAAC::class.java))
+            startActivity(Intent(this,DataBindingActivity::class.java))
         }
     }
 }
