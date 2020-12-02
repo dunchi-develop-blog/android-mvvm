@@ -5,7 +5,7 @@
     <data>
         <variable
             name="vm"
-            type="com.dunchi.android_mvvm.viewmodel.DataBindingViewModel" />
+            type="com.dunchi.android_mvvm.databinding.DataBindingViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

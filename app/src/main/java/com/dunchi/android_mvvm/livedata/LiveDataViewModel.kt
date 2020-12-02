@@ -1,4 +1,4 @@
-package com.dunchi.android_mvvm.viewmodel
+package com.dunchi.android_mvvm.livedata
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

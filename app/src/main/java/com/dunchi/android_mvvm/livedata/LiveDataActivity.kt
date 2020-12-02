@@ -1,10 +1,10 @@
-package com.dunchi.android_mvvm
+package com.dunchi.android_mvvm.livedata
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
-import com.dunchi.android_mvvm.viewmodel.LiveDataViewModel
+import com.dunchi.android_mvvm.R
 import kotlinx.android.synthetic.main.activity_live_data.*
 
 class LiveDataActivity : AppCompatActivity() {

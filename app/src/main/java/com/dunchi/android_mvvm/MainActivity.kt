@@ -3,6 +3,8 @@ package com.dunchi.android_mvvm
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dunchi.android_mvvm.databinding.DataBindingActivity
+import com.dunchi.android_mvvm.livedata.LiveDataActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,11 +14,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         with.setOnClickListener {
-            startActivity(Intent(this,LiveDataActivity::class.java))
+            startActivity(Intent(this,
+                LiveDataActivity::class.java))
         }
 
         without.setOnClickListener {
-            startActivity(Intent(this,DataBindingActivity::class.java))
+            startActivity(Intent(this,
+                DataBindingActivity::class.java))
         }
     }
 }
